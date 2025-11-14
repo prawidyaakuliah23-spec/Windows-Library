@@ -1,0 +1,114 @@
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <div class="logo"> <img src="image/logo perpustakaan.png" Windows Library <span>e-Library</span></div> <!--dipakai untuk mengatur teks "SAGA" dan "e-Library"-->
+    
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Beranda</a></li>
+        <li><a href="tentang kami.html">Tentang Kami</a></li>
+        <li><a href="koleksi.html">Koleksi</a></li>
+        <li><a href="layanan.html">Layanan</a></li>
+        <li><a href="informasi.html">Informasi</a></li>
+        <li><a href="profil saya.html">Profil Saya</a></li>
+      </ul>
+    </nav>
+    <div class="account">
+      <button class="login-btn" onclick="bukaPopup()">Login</button>
+      <input type="text" placeholder="Search...">
+    </div>
+    <div id="popupLogin" class="popup">
+    
+  <div class="popup-content">
+    <button class="close-btn" onclick="tutupPopup()">X</button>
+    <h3>Form Login</h3>
+    <form>
+      <input type="text" placeholder="Username" required><br>
+      <input type="password" placeholder="Password" required><br>
+      <button type="submit" class="login-submit">Login</button>
+    </form>
+    <p>Belum punya akun? <a href="#">Daftar</a></p>
+  </div>
+</div>
+<script>
+    function bukaPopup() {
+      document.getElementById("popupLogin").style.display = "block";
+    }
+
+    function tutupPopup() {
+      document.getElementById("popupLogin").style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      const popup = document.getElementById("popupLogin");
+      if (event.target === popup) {
+        popup.style.display = "none";
+      }
+    }
+  </script>
+  </header>
+  <!-- BANNER -->
+  
+  <section class="banner">
+    <img src="image/membaca buku di perpustakaan.jpeg" alt="Perpustakaan">
+    <div class="banner-text">
+      <h1>WINDOWS<br>LIBRARY</h1>
+      <p>
+        Selamat Datang,
+        Buku adalah Jendela Ilmu
+        Temukan Buku dan 
+        Pengetahuan Tanpa Batas
+      </p>
+    </div>
+    </section>
+  <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Windows Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<section class="welcome">
+  <div class="welcome-text">
+    <h1>Selamat Datang di <br> <span>Windows Library</span></h1>
+    <p>
+    Windows Library merupakan perpustakaan digital dan fisik yang hadir untuk mendukung kebutuhan informasi, pengetahuan, dan literasi masyarakat. 
+    Windows Library berdiri dengan tujuan menjadi pusat sumber belajar yang modern, mudah diakses, dan nyaman bagi semua kalangan. Kami percaya bahwa membaca adalah jendela dunia, dan melalui koleksi serta layanan yang kami sediakan, setiap orang dapat membuka wawasan baru tanpa batas.
+    </p>
+  </div>
+
+  <div class="welcome-media">
+    <iframe width="100%" height="315"
+      src="https://www.youtube.com/embed/AbuEjWX8pCs"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="border-radius:15px;">
+    </iframe>
+  </div>
+</section>
+
+<section class="content">
+  <div class="news-updates">
+    <h2>📰 News & Updates</h2>
+    <div id="news-list"></div>
+  </div>
+
+  <div class="announcements">
+    <h2>📢 Pengumuman</h2>
+    <div id="announcement-list"></div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+<!-- Footer -->
+  <footer>
+    <p>Jl. Tentara Pelajar No. 2, Salatiga - (0298) 123456 - Email: library@uin-salatiga.ac.id</p>
+    <p>© Hak Cipta 2022 - Perpustakaan Universitas Islam Negeri Salatiga</p>
+  </footer>
+</body>
+<html>
+
+</html>

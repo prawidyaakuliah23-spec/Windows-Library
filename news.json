@@ -1,0 +1,30 @@
+{
+  "news": [
+    {
+      "title": "Perpustakaan Gelar Workshop Literasi Digital",
+      "image": "image/news 1.jpeg",
+      "desc": "Workshop literasi digital untuk mahasiswa...",
+      "link": "news1.html"
+    },
+    {
+      "title": "Launching E-Library Mobile Apps",
+      "image": "image/new 2.jpeg",
+      "desc": "Aplikasi e-Library resmi diluncurkan...",
+      "link": "news2.html"
+    }
+  ],
+  "announcements": [
+    {
+      "title": "Perubahan Jam Layanan Perpustakaan",
+      "image": "image/news 3.jpeg",
+      "desc": "Jam layanan baru mulai Senin...",
+      "link": "pengumuman1.html"
+    },
+    {
+      "title": "Perpanjangan Peminjaman Buku Online",
+      "image": "image/news 4.jpeg",
+      "desc": "Mahasiswa kini bisa perpanjang online...",
+      "link": "pengumuman2.html"
+    }
+  ]
+}
